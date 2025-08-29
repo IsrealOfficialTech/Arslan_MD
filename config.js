@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "ARSLAN-MD~eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNFBiRENZT09wc2txakNMVVVnaXJHWVRGakh2Q1B6MEtlZ1hLYXdoQjFIZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiKy9oVTk5TFdRTUpVT1ozbDBiM2hmZ2FydExPUlNJT3ZuN3lDalZIRm1XQT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJlQ0FyQ0FKZGV5VitYTVJodjlOTUZnK05tV2FERnpqb3FRYjV4UUc1UDFVPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIzVWxhcW9tMTBRNm9LQ3I4aCtyTWFydXhKUDNIeTkySkhxM2x5NFJONlRjPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImNFUXhMWWIyZzlTSW9QUkFCWmFjOWRoN1BoVlAzYjczTnNxU0o3RTZxbDA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InVjTjh4eGhZSUdGd3NOaGNHRm9OdmU1eHZlRkdyMGF3UXk5bVBESGNJalk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibUdCeEFlK0hjazB1RGlJWUlnTERIb2hUeDlUTVBQenZxK0VZUmprM08yMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUllGcGdwUjMwK3h1Z1hQWGRUVFdjK1E3OGhDVWwvTWxKSTB1aG9TRTJSaz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjJ4T09TbG02bENGZnZLblZZeEhoTWpka3dKSG1ZQ3Y3b0U5VmhpL3N6dWZSK3c4c2RFOXliUDBYc09tdmhjK1dNelZITUNkdEhoV1ZEakMwbUVpb0N3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6OTksImFkdlNlY3JldEtleSI6ImVudG5VNG5OKzg2T2VNK1l5R04yZnJIT1RrN0RzRDZGR052dWVPc1Z5S2c9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJyZWdpc3RlcmVkIjp0cnVlLCJwYWlyaW5nQ29kZSI6IkI0NjNKRDRWIiwibWUiOnsiaWQiOiIyMzQ4MDc0NTQ4MjI1OjIzQHMud2hhdHNhcHAubmV0IiwibGlkIjoiMjEyNzQ3NTk3OTYzNDk5OjIzQGxpZCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDS1dEaW8wQ0VMTEV4OFVHR0E0Z0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiQlk2NWZWZTB1M3BxSmpsdDM4cWZVMmMyYzRyT0lZY08zcDlrNjBMeittUT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiNE1IN1RaWHhsYk5uRWk1eDJUc3JIKzV3TWtmNTExQ1hKK2lrdDdpYkpyQ0lqWnNqTmswY3Z3RXVwMGo5ZGtkdW9HT0V3QnF6a3ltbjZhQVFCSTZYQlE9PSIsImRldmljZVNpZ25hdHVyZSI6IlI5dzhxbUdicEU0MS9uVVFVdC9sSStaek1RTGdHZFRzUzkvTjc3VEIvYWNQMDExZjRXeWhlWFpzbytXZ0o5THg2ZllVbExoZU8xVVFnRXRFM0xjeUR3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM0ODA3NDU0ODIyNToyM0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJRV091WDFYdEx0NmFpWTViZC9LbjFObk5uT0t6aUdIRHQ2ZlpPdEM4L3BrIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwicm91dGluZ0luZm8iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDQWdJQlE9PSJ9LCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3NTY0ODgyNDcsImxhc3RQcm9wSGFzaCI6Im5tM0JiIiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFGNG0ifQ==",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY Arslan_MD 🇵🇰*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY MASKYBOT_MD 🇵🇰*",
 // set the auto reply massage on status reply  
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 // set true false for anti delete     
@@ -31,11 +31,11 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/yj7zp0.p
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "Arslan_MD",
+BOT_NAME: process.env.BOT_NAME || "MASKYBOT_MD",
 // add bot namw here for menu
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // true to get auto status react
-STICKER_NAME: process.env.STICKER_NAME || "Arslan_MD",
+STICKER_NAME: process.env.STICKER_NAME || "MASKYBOTMD",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
